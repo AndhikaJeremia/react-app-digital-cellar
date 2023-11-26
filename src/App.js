@@ -45,7 +45,7 @@ function App() {
             let config = {
                 method: 'patch',
                 maxBodyLength: Infinity,
-                url: `https://rackrock.andhikajeremia.com/api/user/${modalFormData.id}`,
+                url: `laravel-api-1.andhikajeremia.com/api/user/${modalFormData.id}`,
                 headers: { 
                     'Content-Type': 'application/json'
                 },
@@ -58,7 +58,7 @@ function App() {
                 let config = {
                     method: 'get',
                     maxBodyLength: Infinity,
-                    url: 'https://rackrock.andhikajeremia.com/api/user',
+                    url: 'laravel-api-1.andhikajeremia.com/api/user',
                     headers: { }
                   };
                   
@@ -84,7 +84,7 @@ function App() {
             let config = {
                 method: 'put',
                 maxBodyLength: Infinity,
-                url: 'https://rackrock.andhikajeremia.com/api/user',
+                url: 'laravel-api-1.andhikajeremia.com/api/user',
                 headers: { 
                   'Content-Type': 'application/json'
                 },
@@ -97,7 +97,7 @@ function App() {
                 let config = {
                     method: 'get',
                     maxBodyLength: Infinity,
-                    url: 'https://rackrock.andhikajeremia.com/api/user',
+                    url: 'laravel-api-1.andhikajeremia.com/api/user',
                     headers: { }
                   };
                   
@@ -120,7 +120,7 @@ function App() {
         let config = {
             method: 'delete',
             maxBodyLength: Infinity,
-            url: `https://rackrock.andhikajeremia.com/api/user/${modalFormData.id}`,
+            url: `laravel-api-1.andhikajeremia.com/api/user/${modalFormData.id}`,
             headers: { }
           };
           
@@ -130,7 +130,7 @@ function App() {
             let config = {
                 method: 'get',
                 maxBodyLength: Infinity,
-                url: 'https://rackrock.andhikajeremia.com/api/user',
+                url: 'laravel-api-1.andhikajeremia.com/api/user',
                 headers: { }
               };
               
@@ -153,7 +153,7 @@ function App() {
             let config = {
                 method: 'get',
                 maxBodyLength: Infinity,
-                url: 'https://rackrock.andhikajeremia.com/api/user',
+                url: 'laravel-api-1.andhikajeremia.com/api/user',
                 headers: { }
               };
               

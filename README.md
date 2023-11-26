@@ -2,6 +2,45 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Prerequisites
+Ensure that you have the following installed on your local machine:
+- Node.js: Version 18.6.1
+- npm and npx: Version 9.5.1
+
+If you don't have Node.js installed, you can download it from the [official site](https://nodejs.org/).
+
+## Steps to Setup the Project
+
+1. **Clone the GitHub Repository**
+
+   Open your terminal and run the following command:
+
+   ```bash
+   git clone <repository-url>
+   ```
+
+   Replace `<repository-url>` with the URL of the GitHub repository you want to clone.
+
+2. **Install Dependencies**
+
+   Navigate into the cloned repository directory and install the necessary dependencies by running:
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the Project**
+
+   Start the project by running:
+
+   ```bash
+   npm start
+   ```
+
+   Your application should now be running on `localhost` on the defined port.
+
+Please replace `<repository-url>` with the actual repository URL. If you encounter any issues, please refer to the official Node.js and npm documentation or the repository's README file. Happy coding! 😊
+
 ## Available Scripts
 
 In the project directory, you can run:
